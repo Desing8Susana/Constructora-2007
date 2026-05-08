@@ -175,7 +175,7 @@ h2.light,h3.light{color:#fff}
 .team-card p{margin-top:.75rem;font-size:.88rem;color:var(--muted)}
 
 /* CONTACT */
-.contact{background:var(--navy-deep);color:#fff}
+.contact{padding:6rem 0;background:var(--navy-deep);color:#fff}
 .contact-grid{display:grid;gap:3rem;grid-template-columns:1fr}
 @media(min-width:1024px){.contact-grid{grid-template-columns:1fr 1fr}}
 .contact h2{font-size:clamp(1.8rem,3.5vw,2.75rem);margin-top:1rem}
@@ -185,7 +185,7 @@ h2.light,h3.light{color:#fff}
 .ci-l{font-size:.7rem;text-transform:uppercase;letter-spacing:.2em;color:rgba(255,255,255,.6);margin-bottom:.25rem}
 .contact-item a{color:#fff;font-weight:500}
 .contact-item a:hover{color:var(--orange)}
-.contact-form{background:var(--navy);border:1px solid rgba(255,255,255,.1);border-radius:.5rem;padding:2rem;display:grid;gap:1.25rem;box-shadow:var(--shadow-elev)}
+.contact-form{background:var(--navy);border:1px solid rgba(255,255,255,.1);border-radius:.5rem;box-shadow:var(--shadow-elev)}
 .contact-form label{display:block;font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.2em;color:rgba(255,255,255,.7)}
 .contact-form label span{color:var(--orange)}
 .contact-form input,.contact-form textarea{margin-top:.5rem;width:100%;background:color-mix(in oklab, white 4%, transparent);border:1px solid color-mix(in oklab, white 12%, transparent);color:#fff;padding:.875rem 1rem;border-radius:.375rem;font-size:.95rem;outline:none;font-family:inherit;resize:none;transition:.2s}
@@ -199,4 +199,6 @@ h2.light,h3.light{color:#fff}
 .footer .brand-mark{width:36px;height:36px;font-size:1rem}
 .footer .text-sm{font-size:.85rem;color:rgba(255,255,255,.6)}
 .footer .text-sm strong{color:#fff}
+.footer-copy{font-size:.7rem;text-transform:uppercase;letter-spacing:.2em}
+
 .footer-copy{font-size:.7rem;text-transform:uppercase;letter-spacing:.2em}
