@@ -173,10 +173,9 @@ h2.light,h3.light{color:#fff}
 .team-role{margin-top:1.5rem;font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.2em;color:var(--muted)}
 .team-card h3{margin-top:.5rem;font-size:1.15rem;line-height:1.2}
 .team-card p{margin-top:.75rem;font-size:.88rem;color:var(--muted)}
-
 /* CONTACT */
 .contact{padding:6rem 0;background:var(--navy-deep);color:#fff}
-.contact-grid{display:block;gap:3rem;grid-template-columns:1fr}
+.contact-grid{display:grid;gap:3rem;grid-template-columns:1fr}
 @media(min-width:1024px){.contact-grid{grid-template-columns:1fr 1fr}}
 .contact h2{font-size:clamp(1.8rem,3.5vw,2.75rem);margin-top:1rem}
 .contact-list{margin-top:2.5rem;display:grid;gap:1.5rem}
