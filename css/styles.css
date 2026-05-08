@@ -186,7 +186,7 @@ h2.light,h3.light{color:#fff}
 .contact-item a{color:#fff;font-weight:500}
 .contact-item a:hover{color:var(--orange)}
 .contact-form{background:var(--navy);border:1px solid rgba(255,255,255,.1);border-radius:.5rem;padding:2rem;display:grid;gap:1.25rem;box-shadow:var(--shadow-elev)}
-.contact-form label{max-width: 100%;display:block;font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.2em;color:rgba(255,255,255,.7)}
+.contact-form label{display:block;font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.2em;color:rgba(255,255,255,.7)}
 .contact-form label span{color:var(--orange)}
 .contact-form input,.contact-form textarea{margin-top:.5rem;width:100%;background:color-mix(in oklab, white 4%, transparent);border:1px solid color-mix(in oklab, white 12%, transparent);color:#fff;padding:.875rem 1rem;border-radius:.375rem;font-size:.95rem;outline:none;font-family:inherit;resize:none;transition:.2s}
 .contact-form input::placeholder,.contact-form textarea::placeholder{color:rgba(255,255,255,.5)}
