@@ -176,7 +176,7 @@ h2.light,h3.light{color:#fff}
 
 /* CONTACT */
 .contact{padding:6rem 0;background:var(--navy-deep);color:#fff}
-.contact-grid{display:grid;gap:3rem;grid-template-columns:1fr}
+.contact-grid{display:none;gap:3rem;grid-template-columns:1fr}
 @media(min-width:1024px){.contact-grid{grid-template-columns:1fr 1fr}}
 .contact h2{font-size:clamp(1.8rem,3.5vw,2.75rem);margin-top:1rem}
 .contact-list{margin-top:2.5rem;display:grid;gap:1.5rem}
@@ -200,4 +200,3 @@ h2.light,h3.light{color:#fff}
 .footer .text-sm{font-size:.85rem;color:rgba(255,255,255,.6)}
 .footer .text-sm strong{color:#fff}
 .footer-copy{font-size:.7rem;text-transform:uppercase;letter-spacing:.2em}
-
