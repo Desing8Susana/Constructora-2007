@@ -59,13 +59,36 @@
         <div class="contact-item"><div><div class="ci-l">Operaciones</div><div>España · Portugal · Brasil · Venezuela</div></div></div>
       </div>
     </div>
-    <form class="contact-form" id="contactForm">
-      <label>Nombre <span>*</span><input required type="text" placeholder="Su nombre"/></label>
-      <label>Email <span>*</span><input required type="email" placeholder="email@empresa.com"/></label>
-      <label>Empresa<input type="text" placeholder="Empresa / Organización"/></label>
-      <label>Mensaje <span>*</span><textarea required rows="5" placeholder="Cuéntenos sobre su proyecto"></textarea></label>
-      <button type="submit" class="btn btn-orange">Enviar mensaje →</button>
-    </form>
+   <form class="contact-form"
+      id="contactForm"
+      action="https://formsubmit.co/administracion@constructora2007.com"
+      method="POST">
+
+  <input type="hidden" name="_subject" value="Nueva solicitud de presupuesto - Constructora 2007">
+  <input type="hidden" name="_captcha" value="false">
+
+  <label>
+    Nombre <span>*</span>
+    <input name="nombre" required type="text" placeholder="Su nombre"/>
+  </label>
+
+  <label>
+    Email <span>*</span>
+    <input name="email" required type="email" placeholder="email@empresa.com"/>
+  </label>
+
+  <label>
+    Empresa
+    <input name="empresa" type="text" placeholder="Empresa / Organización"/>
+  </label>
+
+  <label>
+    Mensaje <span>*</span>
+    <textarea name="mensaje" required rows="5" placeholder="Cuéntenos sobre su proyecto"></textarea>
+  </label>
+
+  <button type="submit" class="btn btn-orange">Enviar mensaje →</button>
+</form>
   </div>
 </section>
 
